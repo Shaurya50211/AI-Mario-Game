@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body {
+    font-family: 'Press Start 2P', cursive;
+}
+
+#header {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    background-image: linear-gradient(45deg, yellow, orange, red);
+}
+
+#header h1 {
+    font-size: 30px;
+}
+
+#header button {
+    float: right;
+    margin-right: 50px;
+    margin-top: 2px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    background-color: greenyellow;
+    border-radius: 10px;
+}
+
+#PlayBtn {
+    background-image: linear-gradient(45deg, #13DC45, #2DBE51);
+    font-size: 20px;
+}
+
+h4{
+    position: fixed;
+    bottom: 0;
+    background-color: yellow;
+    padding: 10px;
+    width: 100%;
+}
+
+.close{
+    padding-right: 20px;
+}
+
+.modal-dialog{
+    width: 90%;
+}
+
+.images{
+    display: inline-block;
+    width: 45%;
+}
+
+video{
+    background-image: url("game_console.png");
+    background-size: cover;
+    background-position: center;
+    padding: 25px;
+}
